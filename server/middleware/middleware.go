@@ -1,6 +1,7 @@
 package middleware
 
 import (
+	"os"
 	"context"
 	"encoding/json"
 	"fmt"
@@ -18,7 +19,7 @@ import (
 
 // DB connection string
 // const connectionString = "mongodb://localhost:27017"
-const connectionString = "Connection String"
+const connectionString = os.Getenv("DB_CONNECTION")
 
 // Database Name
 const dbName = "test"
