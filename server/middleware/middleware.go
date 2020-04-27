@@ -19,7 +19,7 @@ import (
 
 // DB connection string
 // const connectionString = "mongodb://localhost:27017"
-const connectionString = os.Getenv("DB_CONNECTION")
+var connectionString = os.Getenv("DB_CONNECTION")
 
 // Database Name
 const dbName = "test"
