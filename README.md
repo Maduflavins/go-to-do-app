@@ -32,7 +32,7 @@ From the Application directory
 
 1. Make sure your mongoDB is started
 2. From server directory, open a terminal and run
-    `export DB_CONNECTION=mongodb://localhost:27017`
+    `export DB_CONNECTION=mongodb://localhost:27017 DB_NAME=test`
    `go run main.go`
 3. From client directory,  
    a. install all the dependencies using `npm install`  
