@@ -22,7 +22,7 @@ import (
 var connectionString = os.Getenv("DB_CONNECTION")
 
 // Database Name
-const dbName = os.Getenv("DB_NAME") // "test"
+var dbName = os.Getenv("DB_NAME") // "test"
 
 // Collection name
 const collName = "todolist"
